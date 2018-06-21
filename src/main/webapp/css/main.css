@@ -1,0 +1,108 @@
+body {
+	margin: 10px 10px;
+}
+
+tr.pq-grid-oddRow > td{
+    background:#fafafa;
+}
+
+.title {
+	vertical-align: top;
+	display: inline-block;
+	text-align: center;
+	border: solid 1px #ececec;
+	width: 150px;
+	background-color: rgb(197, 197, 197);
+}
+
+.head-val {
+	display: inline-block;
+	border: solid 1px #ececec;
+	width: 150px;
+	background-color: #ffffff;
+}
+
+.long {
+	width: 250px;
+}
+
+.longplus {
+	width: 600px;
+}
+
+.short {
+	text-align: center;
+	width: 50px;
+}
+
+#max-trade {
+	display: inline-block;
+	width: 150px;
+	height: 45px;
+	border: solid 1px #ececec;
+	font-size: 32px;
+	text-align: center;
+	vertical-align: top;
+}
+
+.win {
+	background-color: rgba(137, 159, 210, 1);
+}
+
+.loose {
+	background-color: rgb(226, 132, 149)
+}
+
+.result {
+	display: inline-block;
+	border: solid 1px #ececec;
+	width: 50px;
+	background-color: #ffffff;
+}
+
+#link_area {
+	display: inline-block;
+	margin-top: 5px;
+	width: 500px;
+}
+
+#link_area button {
+	margin-left: 5px;
+}
+
+#button_area {
+	display: inline-block;
+	margin-top: 5px;
+	width: 550px;
+	text-align: right;
+}
+
+#button_area button {
+	margin-right: 5px;
+}
+
+.rule_result > .head-val {
+	text-align: center;
+}
+
+#condition {
+	resize: none;
+	width: 758px;
+}
+
+#master_button_area {
+	width: 400px;	
+	margin-bottom: 30px;
+}
+
+#delete_btn {
+	float: right;
+}
+
+#logout_btn {
+	margin-top: 5px;
+}
+
+.error {
+	background-color: #ff0000;
+}
